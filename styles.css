@@ -1558,26 +1558,100 @@ i{
     height: 800px;
     max-width: 800px;
     width: 100%; 
-    background-color: rgba(34, 255, 41, 0.159);
+    /* background-color: rgba(34, 255, 41, 0.159); */
     border: 1px dashed #42434577;
     border-bottom: 0px;
+    border-top: 0px;
     overflow: hidden;
     display: flex;
     /* align-items: center; */
     justify-content: center;
     z-index: 8;
-    padding: 100px 56px;
+    padding: 72px 47px;
 }
 
+#about-header-container{
+    height: 28px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
 
+#about-header-left{
+    height: 28px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
 
+#about-header-left p{
+    width: 100%;
+    color: #ffffff9b;
+    font-size: 16px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.2px;
+}
 
+#about-header-right{
+    height: 28px;
+    width: 106.31px;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
 
+#about-header-right a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#about-header-right a p{
+    min-width: 86.31px;
+    width: 100%;
+    color: #ffffff9b;
+    font-size: 16px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.1px;
+    cursor: pointer;
+    transition: all 0.05s linear;
+}
 
+#about-header-right i{
+    height: 100%;
+    width: 100%;
+    color: #ffffff9b;
+    font-size: 17px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    line-height: 16px;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 5px;
+    transition: all 0.1s linear;
+}
 
+#about-header-right a:hover p{
+    color: #ffffff;
+}
 
-
+#about-header-right a:hover i{
+    transform: rotate(45deg);
+    color: #ffffff;
+}
 
 
 
@@ -1752,6 +1826,13 @@ i{
     .carousel-card-info-left{
         width: 100%;
     }
+
+    #about{
+        max-width: 100%;
+        height: min-content;
+        background-position: top;
+        padding: 73px 40px;
+    }
 }
 
 /* for mobile */
@@ -1890,6 +1971,13 @@ i{
 
     .carousel-card-info-left{
         width: 100%;
+    }
+
+    #about{
+        max-width: 100%;
+        height: min-content;
+        background-position: top;
+        padding: 73px 20px;
     }
 }
 
