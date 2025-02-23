@@ -1945,7 +1945,7 @@ i{
     }
 
     #carousel ul{
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding-right: 0px;
         mask-image: none;
     }
@@ -2100,7 +2100,7 @@ i{
     }
 
     #carousel ul{
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding-right: 0px;
         mask-image: none;
     }
