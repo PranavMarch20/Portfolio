@@ -1552,7 +1552,7 @@ i{
     background-image: url(assets/project4.avif);
 }
 
-
+/* PAGE 3 ABOUT */
 #about{
     position: relative;
     height: 800px;
@@ -1560,12 +1560,14 @@ i{
     width: 100%; 
     /* background-color: rgba(34, 255, 41, 0.159); */
     border: 1px dashed #42434577;
-    border-bottom: 0px;
+    /* border-bottom: 0px; */
     border-top: 0px;
     overflow: hidden;
     display: flex;
-    /* align-items: center; */
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 31px;
     z-index: 8;
     padding: 72px 47px;
 }
@@ -1653,13 +1655,45 @@ i{
     color: #ffffff;
 }
 
+#about-upper-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* background-color: greenyellow; */
+}
 
+#about-lower-experience{
+    width: 100%;
+    height: min-content;
+    background-color: yellow;
+}
 
+.about-text{
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    /* background-color: red; */
+}
 
-
-
-
-
+#about-upper-text a{
+    width: 100%;
+    color: rgb(2, 146, 248);
+    font-size: 16px;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.2px;
+}
 
 
 
