@@ -64,7 +64,7 @@ body::-webkit-scrollbar-thumb{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 #sidebar-bg-image2{
@@ -85,7 +85,7 @@ body::-webkit-scrollbar-thumb{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 @keyframes moveUpDown {
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb{
         transform: translateX(10px);
         transform: translateY(-15px);
         scale: 0.9;
-        filter: blur(50px);
+        filter: blur(45px);
     }
 }
 
