@@ -54,11 +54,11 @@ body::-webkit-scrollbar-thumb{
     /* transform: scale(1.2); */
     overflow: hidden;
     background-color: #00000017;
-    background-image: url(assets/particles.png);
+    background-image: url('assets/particles.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    filter: blur(50px);
+    filter: blur(70px);
     animation: moveUpDown 3s ease-in-out infinite;
     display: flex;
     flex-direction: column;
@@ -75,11 +75,11 @@ body::-webkit-scrollbar-thumb{
     /* transform: scale(1.2); */
     overflow: hidden;
     background-color: #00000017;
-    background-image: url(assets/particles.png);
+    background-image: url('assets/particles.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    filter: blur(50px);
+    filter: blur(70px);
     animation: moveUpDown 3s ease-in-out infinite;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb{
         transform: translateX(20px);
         transform: translateY(-25px);
         scale: 0.9;
-        filter: blur(40px);
+        filter: blur(60px);
     }
 }
 
