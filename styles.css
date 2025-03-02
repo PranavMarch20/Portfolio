@@ -354,7 +354,7 @@ i{
     box-shadow: rgba(255, 255, 255, 0.04) 0px 0.602187px 2.04744px -0.833333px inset, rgba(255, 255, 255, 0.04) 0px 2.28853px 7.78101px -1.66667px inset, rgba(255, 255, 255, 0.04) 0px 10px 34px -2.5px inset;
 }
 
-#date-time p{
+#sidebar-date{
     width: 145px;
     height: 18px;
     font-family: "DM Mono", monospace;
@@ -362,7 +362,7 @@ i{
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    letter-spacing:-0.2px;
+    /* letter-spacing: -0.2px; */
     color:rgba(255, 255, 255, 0.745);
     /* background-color: red; */
 }
