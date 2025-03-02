@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    filter: blur(70px);
+    filter: blur(50px);
     animation: moveUpDown 3s ease-in-out infinite;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ body::-webkit-scrollbar-thumb{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    filter: blur(70px);
+    filter: blur(50px);
     animation: moveUpDown 3s ease-in-out infinite;
     display: flex;
     flex-direction: column;
@@ -94,10 +94,10 @@ body::-webkit-scrollbar-thumb{
         scale: 1;
     }
     50% {
-        transform: translateX(10px);
-        transform: translateY(-15px);
+        transform: translateX(20px);
+        transform: translateY(-25px);
         scale: 0.9;
-        filter: blur(45px);
+        filter: blur(40px);
     }
 }
 
@@ -357,7 +357,7 @@ i{
 #date-time p{
     width: 145px;
     height: 18px;
-    font-family: "Roboto Mono", serif;
+    font-family: "DM Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
