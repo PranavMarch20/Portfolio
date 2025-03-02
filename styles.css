@@ -1555,7 +1555,8 @@ i{
 /* PAGE 3 ABOUT */
 #about{
     position: relative;
-    height: 800px;
+    /* height: 800px; */
+    height: min-content;
     max-width: 800px;
     width: 100%; 
     /* background-color: rgba(34, 255, 41, 0.159); */
@@ -1683,9 +1684,9 @@ i{
     /* background-color: red; */
 }
 
-#about-upper-text a{
+#about-upper-text span{
     width: 100%;
-    color: rgb(2, 146, 248);
+    color: rgb(2, 178, 248);
     font-size: 16px;
     font-family: "Manrope", serif;
     font-optical-sizing: auto;
@@ -1693,6 +1694,7 @@ i{
     font-weight: 500;
     font-style: normal;
     letter-spacing: -0.2px;
+    /* text-decoration: underline; */
 }
 
 
@@ -2164,7 +2166,7 @@ i{
 
     #about{
         max-width: 100%;
-        /* height: min-content; */
+        height: min-content;
         background-position: top;
         padding: 73px 20px;
         /* background-color: #fff; */
