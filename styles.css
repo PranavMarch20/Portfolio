@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb{
     /* transform: scale(1.2); */
     overflow: hidden;
     background-color: #00000017;
-    background-image: url('assets/Particles.png');
+    background-image: url(assets/particles.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb{
     /* transform: scale(1.2); */
     overflow: hidden;
     background-color: #00000017;
-    background-image: url('assets/Particles.png');
+    background-image: url(assets/particles.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
