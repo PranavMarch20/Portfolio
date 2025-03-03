@@ -1217,6 +1217,8 @@ i{
     height: 710px;
     width: 100%;
     border: 1px solid #27282af0;
+    border-left: 0px;
+    border-right: 0px;
     /* background-color: red; */
     background-image: url(assets/WorkPageBg.png);
     background-repeat: repeat;
