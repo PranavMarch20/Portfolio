@@ -215,6 +215,10 @@ body::-webkit-scrollbar-thumb{
     /* background-color: purple; */
 }
 
+#menu a{
+    text-decoration: none;
+}
+
 .menu-item{
     cursor: pointer;
 }
@@ -242,7 +246,7 @@ i{
     padding-left: 1px;
 }
 
-.menu-item a{
+.menu-item p{
     text-decoration: none;
     font-family: "Manrope", serif;
     font-optical-sizing: auto;
@@ -280,7 +284,7 @@ i{
     font-weight: 100;
 }
 
-#Home .menu-item-cont a{
+#Home .menu-item-cont p{
     text-decoration: none;
     font-family: "Manrope", serif;
     font-optical-sizing: auto;
@@ -295,7 +299,7 @@ i{
     background-color: #1c1f1ec3;
 }
 
-.menu-item:hover a {
+.menu-item:hover p {
     color: #ffffff; 
 }
 
@@ -307,7 +311,7 @@ i{
     padding-top: 30px;
 }
 
-#menu-bottom p{
+#menu-bottom > p{
     font-family: "Manrope", serif;
     font-optical-sizing: auto;
     font-weight: 400;
