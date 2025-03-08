@@ -35,9 +35,3 @@ function updateDate() {
 updateDate();
 
 
-
-// locomotive-scroll smooth scrolling
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main-container'),
-    smooth: true
-});
