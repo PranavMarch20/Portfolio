@@ -33,3 +33,11 @@ function updateDate() {
 
 // Call function to set the date on page load
 updateDate();
+
+
+
+// locomotive-scroll smooth scrolling
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main-container'),
+    smooth: true
+});
