@@ -571,6 +571,7 @@ i{
     /* background-color: rgba(34, 255, 41, 0.159); */
     border: 1px dashed #42434577;
     border-bottom: 0px;
+    border-top: 0px;
     overflow: hidden;
     display: flex;
     /* align-items: center; */
@@ -1922,6 +1923,7 @@ i{
     #hero{
         max-width: 100%;
         top: 71.5px;
+        border: 0px;
     }
 
     #star-bg{
@@ -2069,6 +2071,7 @@ i{
         height: 635px;
         max-width: 100%;
         top: 71.5px;
+        border: 0px;
     }
 
     #hero-content-container{
