@@ -127,7 +127,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 #sidebar-empty-162{
-    height: 67px;
+    height: auto;
     width: inherit;
     /* background-color: red; */
 }
